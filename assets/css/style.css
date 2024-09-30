@@ -235,6 +235,7 @@ h2.section-heading {
 section.top-heading-section h1 {
     color: #fff;
     font-size: 35px;
+    margin-bottom: 5px;
 }
 
 section.top-heading-section h3 {
@@ -748,7 +749,7 @@ section.betting-bonus p {
 
 
 .reviews-cards {
-    padding: 20px 10px;
+    padding: 15px;
     box-shadow: #00e576 0px 3px 8px;
     border-radius: 15px;
     margin-bottom: 30px;
@@ -791,7 +792,7 @@ section.betting-bonus p {
 }
 .review-cards-text-cards {
     width: 32%;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #00e576;
     border-radius: 10px;
     margin-bottom: 30px;
