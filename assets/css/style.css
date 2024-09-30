@@ -363,6 +363,7 @@ a.butn.bonus-butn:hover {
     transform: translateY(3px);
     box-shadow: #fff 0px 3px 4px;
 }
+
 /* Home Page Cards CSS End */
 
 /* Home Guide Section CSS Start */
@@ -400,14 +401,18 @@ section.our-recommendations p {
     margin-bottom: 10px;
     font-weight: 300;
 }
+
 section.our-recommendations.pb-5 {
     background-color: transparent;
     backdrop-filter: blur(20px);
 }
+
 /* Our Recommendations CSS End */
 
 /* Batting Bonus Section Start */
-section.betting-bonus, .home-tips,.how-we-rate-wrapper{
+section.betting-bonus,
+.home-tips,
+.how-we-rate-wrapper {
     background-color: transparent;
     backdrop-filter: blur(20px);
 }
@@ -754,19 +759,43 @@ section.betting-bonus p {
 .review-top-sections h2 {
     color: #fff;
     margin: 15px 0px;
+    font-size: 35px;
 }
+
 .review-top-sections a.butn.bonus-butn {
-margin:10px 0
+    margin: 10px 0
 }
+
 .review-top-sections p {
     color: #fff;
     margin-bottom: 10px;
     font-weight: 300;
 }
 
-
-
-
+.review-cards-text-cards h3 {
+    color: #00e576;
+    margin-bottom: 10px;
+}
+.review-top-sections .review-cards-intro-p{
+    margin: 20px 0;
+}
+.review-cards-text-cards p {
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.review-cards-text-groups-wrapper.py-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.review-cards-text-cards {
+    width: 32%;
+    padding: 10px;
+    border: 1px solid #00e576;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
 
 /* Banner Section CSS Start */
 .banner {
