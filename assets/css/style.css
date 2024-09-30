@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 /* Global CSS Start */
@@ -43,6 +43,7 @@ p {
     line-height: 1.5;
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -59,14 +60,14 @@ ul li {
 a {
     display: inline-block;
     text-decoration: none;
-font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;
 }
 
 button,
 textarea,
 input[type=text],
 input[type=submit] {
-font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;
 }
 
 img {
@@ -101,6 +102,9 @@ img {
 .pb-4 {
     padding-bottom: 40px;
 }
+.pb-3{
+    padding-bottom: 30px;
+}
 
 
 .text-center {
@@ -129,8 +133,7 @@ img {
     margin: 0 auto;
     z-index: 9999;
     transition: all 0.3s ease-in-out;
-    background-color: transparent;
-    backdrop-filter: blur(10px);
+background-color: #000;
 
 }
 
@@ -150,7 +153,7 @@ img {
 }
 
 .main-navbar ul li a {
-    padding: 0 10px;
+    padding:10px;
     display: inline-block;
     text-align: center;
     cursor: pointer;
@@ -167,16 +170,24 @@ img {
 .main-navbar ul li a:after {
     display: block;
     content: '';
-    border-bottom: solid 1px #59e3a7;
-    transform: scaleX(0);
-    transition: all 0.3s ease-in-out;
-    padding-bottom: 5px;
+    border-bottom: solid 2px #59e3a7;
+    transition: all 300ms ease-in-out;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 0%;
 }
 
 .main-navbar ul li a:hover:after,
 .main-navbar ul li a.active:after {
-    transform: scaleX(1);
+    width: 100%;
 }
+
+.main-navbar ul li a:hover,
+.main-navbar ul li a.active {
+    color: #59e3a7;
+ transform: scaleX(1);}
+
 
 
 .close-icon {
@@ -208,409 +219,153 @@ img {
 
 /* Section Heading CSS Start */
 h2.section-heading {
-    font-size: 55px;
-    line-height: 1.5;
+    font-size: 45px;
+    line-height: normal;
     color: #fff;
-    margin: 0 auto;
-    text-align: center;
 }
 
 /* Section Heading CSS End */
-
-/* Banner Section CSS Start */
-.banner {
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-
-.banner-image {
-    height: 550px;
-    width: 100%;
-}
-.sub-pages-banner-image {
-    height: 450px;
-}
-
-
-.banner-image img {
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-    object-position: center;
-}
-
-.banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0 0 0/65%);
-    background-blend-mode: multiply;
-    overflow: hidden;
-    text-align: center;
-}
-
-.banner-text h1 {
-    font-size: 70px;
+section.top-heading-section h1 {
     color: #fff;
-    display: block;
-    font-weight: 600;
-    text-transform: capitalize;
-    overflow: hidden;
+    font-size: 35px;
 }
-
-.sub-pages-banner-text h1 {
-    font-size: 55px;
-}
-
-.banner-text h3 {
-    font-size: 25px;
+section.top-heading-section h3 {
     color: #fff;
-    display: block;
-    font-weight: 600;
-    text-transform: capitalize;
-    max-width: 1000px;
-    margin: 0 auto;
-    line-height: 1.5;
-    overflow: hidden;
+    font-size: 22px;}
+
+ span.green{
+    color:#59e3a7
 }
-
-/* Banner Section  CSS End */
-
-/* Home Page Intro CSS Start */
-
-.pages-intro-text-wrapper {
-    max-width: 1150px;
-    margin: 0 auto;
-    padding: 0 20px;
-    border-radius: 10px;
-    overflow: hidden;
+section.top-heading-section p {
+font-size: 15px;
+color: #fff;
+margin-bottom: 5px;
 }
-.pages-intro-text-wrapper p {
-    margin-bottom: 10px;
-    text-align: center;
+.top-heading-section .short-text {
+font-size: 11px;
+color: #fff;
+margin-top: 10px;
+}
+.top-pics{
+    height: 20px;
+    width: 20px;
     color: #fff;
-}
-/* Home Page Intro CSS End */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Discalimer CSS Start */
-
-.disclaimer {
-    background-image: url("../images/disclaimer-bg.png");
-    background-repeat: no-repeat;
-    background-color: rgb(0 0 0/50%);
-    background-blend-mode: multiply;
-    background-size: cover;
-}
-
-.disclaimer-wrapper h3 {
-    color: #FFBB35;
-    font-size: 30px;
-}
-
-.disclaimer-wrapper {
-    padding: 0 15px;
-}
-
-.disclaimer-wrapper p {
-    color: #fff;
-    margin-bottom: 10px;
-    line-height: 1.7;
-}
-
-.disclaimer-wrapper p a {
-    color: #FFBB35;
-    transition: 0.3s all ease-in-out;
-}
-
-.disclaimer-wrapper p a:hover {
-    color: rgb(255 0 0);
-    transform: translateX(3px);
-}
-
-span.heading-like {
-    font-weight: 700;
-    color: #FFBB35;
     margin-right: 5px;
-}
-
-/* Discalimer CSS End */
-
-
-
-/* Footer CSS Start */
-.footer {
-    width: 100%;
-    background-image: url("../images/footer-bg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.footer-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding-bottom: 30px;
-    overflow: hidden;
-    width: 100%;
-}
-
-.logo-bottom img {
-    width: 100%;
-    max-width: 300px;
-}
-
-.logo-bottom a {
-    width: 100%;
-}
-
-.footer-items {
-    width: 30%;
-}
-
-.footer-items h3 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 12px;
-    text-align: center;
-    color: #FFBB35;
-}
-
-.footer-links h3 {
-    text-align: left;
-}
-
-.footer-items .social-icons {
-    width: 100%;
-    margin: 15px auto;
-}
-
-
-.footer-items ul li a {
-    padding: 3px 0;
-}
-
-.footer .footer-items ul li a {
-    transition: 0.6s all ease;
-    font-size: 17px;
-    position: relative;
-    color: #fff;
-}
-
-.footer .footer-items ul li a:hover {
-    color: #FFBB35;
-}
-
-
-.footer .footer-items ul li a:after {
-    display: block;
-    content: '';
-    border-bottom: solid 1px #FFBB35;
-    transition: all 300ms ease-in-out;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 0%;
-}
-
-.footer-items ul li a:hover:after {
-    width: 100%;
-}
-
-.footer .footer-items ul li a:hover {
-    transform: translateX(3px);
-}
-
-.footer-icons {
-    min-width: 20px;
-    margin-right: 6px;
-}
-
-.footer-arrow {
-    margin-right: 7px;
-}
-
-.copyright {
-    padding: 15px 0;
-    text-align: center;
-    margin: auto 0;
-    border-top: 1px solid #FFBB35;
-}
-
-.copyright p {
-    color: #fff;
-    text-align: center;
-}
-
-.ssl-certificate img {
-    max-width: 150px;
-}
-
-/* Footer CSS End */
-
-/* Social Icons CSS Start */
-.social-icons {
-    text-align: center;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px auto;
-
-}
-
-.social-icons i {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    font-size: 17px;
-    background-color: #FFBB35;
-    color: #000;
-    line-height: normal;
-    margin: 0 5px;
-    transition: 0.3s all ease-in-out;
-    display: inline-flex !important;
-    align-items: center;
-    justify-content: center;
     vertical-align: middle;
 }
-
-.social-icons i:hover {
-    transform: translateY(-2px);
-    color: #fff;
+.right-text{
+    text-align: right;
 }
-
-.social-icons i.facebook:hover {
-    background-color: #116af9;
-    box-shadow: #fff 0px 4px 8px;
-}
-
-.social-icons i.twitter:hover {
-    background-color: #000;
-    box-shadow: #fff 0px 4px 8px;
-}
-
-.social-icons i.instagram:hover {
-    background-color: #da1090;
-    box-shadow: #fff 0px 2px 4px;
-}
-
-.social-icons i.linkedin:hover {
-    background-color: #0a66c2;
-    box-shadow: #fff 0px 2px 4px;
-}
-
-/* Social Icons CSS End */
-
-
-/* Sub Pages CSS Start */
-.sub-pages span.heading-like {
-    color: #FFBB35;
-    font-weight: 700;
-    font-size: 17px;
-}
-
-.sub-pages-content-section {
-    background-image: url("../images/sub-pages-bg.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-
-.sub-pages-group {
-    margin-bottom: 35px;
-    padding: 20px;
-    box-shadow: 0px 0px 4px 3px #FFBB35;
+.top-heading-section-wrapper{
+    padding: 15px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
     border-radius: 10px;
 }
-
-.sub-pages-group:last-child {
-    margin-bottom: 0px;
+.specs {
+    margin-top: 10px;
 }
-
-.sub-pages-group h3 {
-    font-size: 27px;
-    margin-bottom: 10px;
-    color: #FFBB35;
-}
-
-.sub-pages-group h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
+.specs span{
     color: #fff;
+    margin-right: 10px;
 }
-
-.sub-pages-group p {
-    margin-bottom: 10px;
-    font-size: 17px;
-    font-weight: 500;
+.home-page-cards-wrapper {
+    display: flex;
     color: #fff;
+    text-transform: uppercase;
+    padding: 20px 5px;
+    box-shadow: #59e3a7 0px 3px 8px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
-
-.sub-pages-group ul li {
-    margin-bottom: 10px;
-    list-style-type: disc;
-    margin-left: 17px;
-    color: #ffff;
+.home-page-cards-wrapper-g2,.home-page-cards-wrapper-g1{
+    display: flex;
+    width: 50%;
 }
-
-.sub-pages-group h3 a {
-    color: #FFBB35;
+.casino-name,.casino-welcome,.casino-rating,.casino-bonus{
+    width: 50%;
+}
+.headings-text {
+    color: #fff;
+    display: flex;
+    margin-bottom: 30px;
+    background: #000;
+    padding: 15px 10px;
+}
+.name,.welcome-bonus,.bonus,.rating{
+    flex:1;
+}
+.casino-name img {
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+.casino-rating h3 {
+    margin-left: 40px;
+}
+.butn{
+    padding: 15px 30px;
+    outline: none;
+    line-height: normal;
+    border: 1px solid transparent;
+    border-radius: 10px;
     transition: 0.3s all ease-in-out;
 }
+a.butn.bonus-butn {
+    background-color: #59e3a7;
+    border: 1px solid #59e3a7;
+    color: #fff;
 
-.sub-pages-group h3 a:hover {
-    color: red;
-    transform: translateX(2px);
+}
+a.butn.bonus-butn:hover{
+    transform: translateY(3px);
+    box-shadow: #fff 0px 3px 4px;
+}
+section.guide-text-section{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
 }
 
-.sub-pages-group p a {
-    color: #FFBB35;
-    font-weight: 600;
-    font-size: 17px;
-    transition: 0.3s all ease-in-out;
+section.guide-text-section p {
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+span.heading-like {
+    font-weight: 700;
+    color: #59e3a7;
+    margin-right: 5px;
+}
+.how-we-rate-wrapper p {
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 300;
 }
 
-.sub-pages-group p a:hover {
-    color: blue;
-    transform: translateX(2px);
+section.our-recommendations p {
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+section.betting-bonus{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+section.betting-bonus p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.home-tips p{
+    color: #fff;
+    margin-bottom: 10px;
 }
 
-.sub-pages-group ul {
-    margin: 10px auto;
-}
-
-/* Sub Pages CSS End */
-
-/* Other Page CSS Start */ 
- 
 
 /* Accordion CSS Start */
 .accordion {
-    background-color:#FFBB35;
+    background-color:#59e3a7;
     border-radius: 0px;
     justify-content: flex-start;
     align-items: stretch;
@@ -722,6 +477,362 @@ span.heading-like {
     margin-top: 3.75rem;
 }
 /* Accordion CSS End */
+
+
+
+
+
+/* Banner Section CSS Start */
+.banner {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.banner-image {
+    height: 550px;
+    width: 100%;
+}
+.sub-pages-banner-image {
+    height: 450px;
+}
+
+
+.banner-image img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0 0 0/65%);
+    background-blend-mode: multiply;
+    overflow: hidden;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 70px;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+
+.sub-pages-banner-text h1 {
+    font-size: 55px;
+}
+
+.banner-text h3 {
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    text-transform: capitalize;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+/* Banner Section  CSS End */
+
+/* Home Page Intro CSS Start */
+
+.pages-intro-text-wrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.pages-intro-text-wrapper p {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+/* Home Page Intro CSS End */
+
+/* Disclaimer Section CSS Start */
+  .disclaimer-wrapper {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 0px 25px;
+      border-radius: 10px;
+      overflow: hidden;
+  }
+  
+  .disclaimer-wrapper h3 {
+      font-size: 30px;
+      color: #59e3a7;
+  }
+  
+  .disclaimer-wrapper p {
+      margin-bottom: 15px;
+      font-weight: 300;
+      color: #fff;
+  }
+    /* Disclaimer Section CSS End */
+  
+  /* Footer CSS Start */
+  .footer {
+      width: 100%;
+  }
+  
+  .footer-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding-bottom: 30px;
+      overflow: hidden;
+      width: 100%;
+      max-width: 1000x;
+  }
+  
+  .logo-bottom img {
+      width: 100%;
+  }
+  
+  .lg-btm {
+      width: 100%;
+  }
+  
+  .lg-btm a {
+      width: 100%;
+  }
+  
+  .lg-btm a img {
+      width: 100%;
+      object-fit: cover;
+      max-width: 340px;
+  }
+  
+  .logo-bottom {
+      width: 20%;
+  }
+  
+  .footer-items {
+      width: 30%;
+  }
+  
+  .footer-items h3 {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      text-align: center;
+      color: #59e3a7;
+  }
+  
+  .footer-links h3 {
+      text-align: left;
+  }
+  
+  .footer-items .social-icons {
+      width: 100%;
+      margin: 15px auto;
+  }
+  
+  
+  .footer-items ul li a {
+      padding: 3px 0;
+  }
+  
+  .footer .footer-items ul li a {
+      transition: 0.6s all ease;
+      font-size: 17px;
+      position: relative;
+      color:#fff;
+      font-weight: 600;
+  }
+  
+  
+  .footer .footer-items ul li a:after {
+      display: block;
+      content: '';
+      border-bottom: solid 1px #59e3a7;
+      transition: all 300ms ease-in-out;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      width: 0%;
+  }
+  
+  .footer .footer-items ul li a:hover {
+      transform: translateX(3px);
+  }
+  
+  .footer-icons {
+      min-width: 20px;
+      margin-right: 6px;
+  }
+  
+  
+  .footer-items ul li a:hover:after {
+      width: 100%;
+  }
+  
+  
+  
+  .copyright {
+      padding: 15px 0;
+      text-align: center;
+      margin: auto 0;
+      border-top: 1px solid #cf2d5e;
+  }
+  
+  .copyright p {
+      color: #fff;
+      text-align: center;
+      font-weight: 300;
+      font-size: 14px;
+  }
+  
+  /* Footer CSS End */
+  
+/* Social Icons CSS Start */
+.social-icons {
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+
+}
+
+.social-icons i {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color:#fff;
+    color: #000;
+    line-height: normal;
+    margin: 0 5px;
+    transition: 0.3s all ease-in-out;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.social-icons i:hover {
+    transform: translateY(-2px);
+    color: #fff;
+}
+
+.social-icons i.facebook:hover {
+    background-color: #116af9;
+    box-shadow: #fff 0px 4px 8px;
+}
+
+.social-icons i.twitter:hover {
+    background-color: #000;
+    box-shadow: #fff 0px 4px 8px;
+}
+
+.social-icons i.instagram:hover {
+    background-color: #da1090;
+    box-shadow: #fff 0px 2px 4px;
+}
+/* Social Icons CSS End */
+
+
+/* Sub Pages CSS Start */
+.sub-pages span.heading-like {
+    color: #FFBB35;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.sub-pages-content-section {
+    background-image: url("../images/sub-pages-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.sub-pages-group {
+    margin-bottom: 35px;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 3px #FFBB35;
+    border-radius: 10px;
+}
+
+.sub-pages-group:last-child {
+    margin-bottom: 0px;
+}
+
+.sub-pages-group h3 {
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: #FFBB35;
+}
+
+.sub-pages-group h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.sub-pages-group p {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.sub-pages-group ul li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+    margin-left: 17px;
+    color: #ffff;
+}
+
+.sub-pages-group h3 a {
+    color: #FFBB35;
+    transition: 0.3s all ease-in-out;
+}
+
+.sub-pages-group h3 a:hover {
+    color: red;
+    transform: translateX(2px);
+}
+
+.sub-pages-group p a {
+    color: #FFBB35;
+    font-weight: 600;
+    font-size: 17px;
+    transition: 0.3s all ease-in-out;
+}
+
+.sub-pages-group p a:hover {
+    color: blue;
+    transform: translateX(2px);
+}
+
+.sub-pages-group ul {
+    margin: 10px auto;
+}
+
+/* Sub Pages CSS End */
+
+/* Other Page CSS Start */ 
+ 
+
 
 
 
