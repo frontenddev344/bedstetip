@@ -173,7 +173,7 @@ img {
 .main-navbar ul li a:after {
     display: block;
     content: '';
-    border-bottom: solid 2px #00e576;
+    border-bottom: solid 2px #ffa500;
 
     transition: all 300ms ease-in-out;
     position: absolute;
@@ -189,7 +189,7 @@ img {
 
 .main-navbar ul li a:hover,
 .main-navbar ul li a.active {
-    color: #00e576;
+    color: #ffa500;
     transform: scaleX(1);
 }
 
@@ -201,7 +201,7 @@ img {
 
 .menu-icon {
     display: none;
-    color: #00e576;
+    color: #ffa500;
     width: 30px;
     text-align: right;
     cursor: pointer;
@@ -246,7 +246,7 @@ section.top-heading-section h3 {
 }
 
 span.green {
-    color: #00e576
+    color: #ffa500
 }
 
 section.top-heading-section p {
@@ -298,7 +298,7 @@ section.top-heading-section p {
     color: #fff;
     text-transform: uppercase;
     padding: 20px 15px;
-    box-shadow: #00e576 0px 3px 8px;
+    box-shadow: #ffa500 0px 3px 8px;
     background-color: transparent;
     backdrop-filter: blur(10px);
     border-radius: 10px;
@@ -355,8 +355,8 @@ section.top-heading-section p {
 }
 
 a.butn.bonus-butn {
-    background-color: #00e576;
-    border: 1px solid #00e576;
+    background-color: #ffa500;
+    border: 1px solid #ffa500;
     color: #fff;
 
 }
@@ -382,7 +382,7 @@ section.guide-text-section p {
 
 span.heading-like {
     font-weight: 700;
-    color: #00e576;
+    color: #ffa500;
     margin-right: 5px;
 }
 
@@ -436,7 +436,7 @@ section.betting-bonus p {
 
 /* Accordion CSS Start */
 .accordion {
-    background-color: #00e576;
+    background-color: #ffa500;
     border-radius: 0px;
     justify-content: flex-start;
     align-items: stretch;
@@ -572,7 +572,7 @@ section.betting-bonus p {
 
 .disclaimer-wrapper h3 {
     font-size: 30px;
-    color: #00e576;
+    color: #ffa500;
 }
 
 .disclaimer-wrapper p {
@@ -630,7 +630,7 @@ section.betting-bonus p {
     font-weight: 700;
     margin-bottom: 12px;
     text-align: center;
-    color: #00e576;
+    color: #ffa500;
 }
 
 .footer-links h3 {
@@ -659,7 +659,7 @@ section.betting-bonus p {
 .footer .footer-items ul li a:after {
     display: block;
     content: '';
-    border-bottom: solid 1px #00e576;
+    border-bottom: solid 1px #ffa500;
     transition: all 300ms ease-in-out;
     position: absolute;
     left: 0;
@@ -687,7 +687,7 @@ section.betting-bonus p {
     padding: 15px 0;
     text-align: center;
     margin: auto 0;
-    border-top: 1px solid #00e576;
+    border-top: 1px solid #ffa500;
 }
 
 .copyright p {
@@ -757,7 +757,7 @@ section.betting-bonus p {
 
 .reviews-cards {
     padding: 15px;
-    box-shadow: #00e576 0px 3px 8px;
+    box-shadow: #ffa500 0px 3px 8px;
     border-radius: 15px;
     margin-bottom: 30px;
     background-color: transparent;
@@ -781,7 +781,7 @@ section.betting-bonus p {
 }
 
 .review-cards-text-cards h3 {
-    color: #00e576;
+    color: #ffa500;
     margin-bottom: 10px;
 }
 
@@ -804,7 +804,7 @@ section.betting-bonus p {
 .review-cards-text-cards {
     width: 32%;
     padding: 15px;
-    border: 1px solid #00e576;
+    border: 1px solid #ffa500;
     border-radius: 10px;
     margin-bottom: 30px;
 }
@@ -817,7 +817,7 @@ section.about-us-cards-section {
 }
 
 .about-us-cards h3 {
-    color: #00e576;
+    color: #ffa500;
     margin-bottom: 10px;
     font-size: 22px;
     text-decoration: underline;
@@ -930,7 +930,7 @@ section.about-us-cards-section {
 .sub-pages-group {
     margin-bottom: 35px;
     padding: 20px;
-    border: 1px solid #00e576;
+    border: 1px solid #ffa500;
     border-radius: 10px;
 }
 
@@ -941,7 +941,7 @@ section.about-us-cards-section {
 .sub-pages-group h3 {
     font-size: 27px;
     margin-bottom: 10px;
-    color: #00e576;
+    color: #ffa500;
 }
 
 .sub-pages-group h4 {
@@ -965,7 +965,7 @@ section.about-us-cards-section {
 }
 
 .sub-pages-group h3 a {
-    color: #00e576;
+    color: #ffa500;
     transition: 0.3s all ease-in-out;
 }
 
@@ -975,7 +975,7 @@ section.about-us-cards-section {
 }
 
 .sub-pages-group p a {
-    color: #00e576;
+    color: #ffa500;
     font-weight: 600;
     font-size: 17px;
     transition: 0.3s all ease-in-out;
@@ -1029,7 +1029,7 @@ form.contact-form {
 }
 
 .formbold-form-input:focus {
-    border-color: #00e576;
+    border-color: #ffa500;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
@@ -1040,7 +1040,7 @@ form.contact-form {
     padding: 14px 32px;
     border: none;
     font-weight: 600;
-    background-color: #00e576;
+    background-color: #ffa500;
     color: #fff;
     cursor: pointer;
     margin-top: 15px;
