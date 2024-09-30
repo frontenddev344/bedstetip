@@ -363,7 +363,6 @@ a.butn.bonus-butn:hover {
     transform: translateY(3px);
     box-shadow: #fff 0px 3px 4px;
 }
-
 /* Home Page Cards CSS End */
 
 /* Home Guide Section CSS Start */
@@ -734,6 +733,39 @@ section.betting-bonus p {
 }
 
 /* Social Icons CSS End */
+
+.review-top-sections img {
+    max-width: 300px;
+    object-fit: cover;
+}
+
+
+
+
+.reviews-cards {
+    padding: 20px 10px;
+    box-shadow: #00e576 0px 3px 8px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+
+.review-top-sections h2 {
+    color: #fff;
+    margin: 15px 0px;
+}
+.review-top-sections a.butn.bonus-butn {
+margin:10px 0
+}
+.review-top-sections p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+
+
 
 /* Banner Section CSS Start */
 .banner {
