@@ -25,6 +25,7 @@ body {
     background-color: rgb(0 0 0/50%);
     background-blend-mode: multiply;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 h1,
@@ -555,9 +556,9 @@ section.betting-bonus p {
 /* Accordion CSS End */
 
 /* Disclaimer Section CSS Start */
-.disclaimer{
-    background-color:transparent;
-backdrop-filter: blur(20px);
+.disclaimer {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
 }
 
 
@@ -783,19 +784,23 @@ backdrop-filter: blur(20px);
     color: #00e576;
     margin-bottom: 10px;
 }
-.review-top-sections .review-cards-intro-p{
+
+.review-top-sections .review-cards-intro-p {
     margin: 20px 0;
 }
+
 .review-cards-text-cards p {
     color: #fff;
     margin-bottom: 10px;
     font-weight: 300;
 }
+
 .review-cards-text-groups-wrapper.py-4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .review-cards-text-cards {
     width: 32%;
     padding: 15px;
@@ -810,19 +815,23 @@ section.about-us-cards-section {
     background-color: transparent;
     backdrop-filter: blur(20px);
 }
+
 .about-us-cards h3 {
-    color:#00e576;
+    color: #00e576;
     margin-bottom: 10px;
     font-size: 22px;
     text-decoration: underline;
-    text-underline-offset:5px
+    text-underline-offset: 5px
 }
-.about-us-cards p{
+
+.about-us-cards p {
     color: #fff;
 }
+
 .about-us-cards-wrapper {
     padding: 20px;
 }
+
 .about-us-cards {
     margin-bottom: 30px;
 }
@@ -913,18 +922,15 @@ section.about-us-cards-section {
 }
 
 .sub-pages-content-section {
-    background-image: url("../images/sub-pages-bg.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
 }
 
 
 .sub-pages-group {
     margin-bottom: 35px;
     padding: 20px;
-    box-shadow: 0px 0px 4px 3px #FFBB35;
+    border: 1px solid #00e576;
     border-radius: 10px;
 }
 
@@ -935,7 +941,7 @@ section.about-us-cards-section {
 .sub-pages-group h3 {
     font-size: 27px;
     margin-bottom: 10px;
-    color: #FFBB35;
+    color: #00e576;
 }
 
 .sub-pages-group h4 {
@@ -947,7 +953,7 @@ section.about-us-cards-section {
 .sub-pages-group p {
     margin-bottom: 10px;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 300;
     color: #fff;
 }
 
@@ -959,7 +965,7 @@ section.about-us-cards-section {
 }
 
 .sub-pages-group h3 a {
-    color: #FFBB35;
+    color: #00e576;
     transition: 0.3s all ease-in-out;
 }
 
@@ -969,15 +975,15 @@ section.about-us-cards-section {
 }
 
 .sub-pages-group p a {
-    color: #FFBB35;
+    color: #00e576;
     font-weight: 600;
     font-size: 17px;
     transition: 0.3s all ease-in-out;
 }
 
 .sub-pages-group p a:hover {
-    color: blue;
-    transform: translateX(2px);
+    color: red;
+    transform: translateY(-1px);
 }
 
 .sub-pages-group ul {
@@ -986,4 +992,87 @@ section.about-us-cards-section {
 
 /* Sub Pages CSS End */
 
-/* Other Page CSS Start */
+/* Other Page CSS End*/
+
+/* Contact Page CSS Start */
+.form-container {
+    padding: 20px 0;
+background-color: transparent;
+backdrop-filter: blur(20px);
+}
+
+.form-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+form.contact-form {
+    max-width: 600px;
+    padding: 30px 0px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.formbold-form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.formbold-form-input:focus {
+    border-color: #00e576;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: #00e576;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s all ease-in;
+}
+
+.formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+    transform: translateY(-3px);
+}
+.submit-icon {
+    margin-left: 10px;
+}
+
+.formbold--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.formbold-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.w-full {
+    width: 100%;
+}
