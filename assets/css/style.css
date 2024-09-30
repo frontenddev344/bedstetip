@@ -555,6 +555,12 @@ section.betting-bonus p {
 /* Accordion CSS End */
 
 /* Disclaimer Section CSS Start */
+.disclaimer{
+    background-color:transparent;
+backdrop-filter: blur(20px);
+}
+
+
 .disclaimer-wrapper {
     max-width: 1150px;
     margin: 0 auto;
@@ -797,6 +803,40 @@ section.betting-bonus p {
     border-radius: 10px;
     margin-bottom: 30px;
 }
+
+
+/* About Us Page CSS Start */
+section.about-us-cards-section {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+.about-us-cards h3 {
+    color:#00e576;
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-decoration: underline;
+    text-underline-offset:5px
+}
+.about-us-cards p{
+    color: #fff;
+}
+.about-us-cards-wrapper {
+    padding: 20px;
+}
+.about-us-cards {
+    margin-bottom: 30px;
+}
+
+
+
+/* About Us Page CSS End */
+
+
+
+
+
+
+
 
 /* Banner Section CSS Start */
 .banner {
