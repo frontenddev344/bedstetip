@@ -118,7 +118,7 @@ img {
     vertical-align: middle;
 }
 
-.header {
+.website-header {
     position: sticky;
     top: 0;
     left: 0;
@@ -127,6 +127,8 @@ img {
     margin: 0 auto;
     z-index: 9999;
     transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
 
 }
 
