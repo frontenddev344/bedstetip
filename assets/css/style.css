@@ -240,6 +240,7 @@ section.top-heading-section h1 {
 section.top-heading-section h3 {
     color: #fff;
     font-size: 22px;
+    margin-bottom: 10px;
 }
 
 span.green {
@@ -294,12 +295,13 @@ section.top-heading-section p {
     display: flex;
     color: #fff;
     text-transform: uppercase;
-    padding: 20px 5px;
+    padding: 20px 15px;
     box-shadow: #00e576 0px 3px 8px;
     background-color: transparent;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     margin-bottom: 30px;
+    min-height: 140px;
 }
 
 .home-page-cards-wrapper-g2,
@@ -313,6 +315,7 @@ section.top-heading-section p {
 .casino-rating,
 .casino-bonus {
     width: 50%;
+    margin: auto;
 }
 
 .headings-text {
@@ -398,11 +401,14 @@ section.our-recommendations p {
     margin-bottom: 10px;
     font-weight: 300;
 }
-
+section.our-recommendations.pb-5 {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
 /* Our Recommendations CSS End */
 
 /* Batting Bonus Section Start */
-section.betting-bonus {
+section.betting-bonus, .home-tips,.how-we-rate-wrapper{
     background-color: transparent;
     backdrop-filter: blur(20px);
 }
