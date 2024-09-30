@@ -170,7 +170,8 @@ background-color: #000;
 .main-navbar ul li a:after {
     display: block;
     content: '';
-    border-bottom: solid 2px #59e3a7;
+    border-bottom: solid 2px  #00e576;
+   
     transition: all 300ms ease-in-out;
     position: absolute;
     right: 0;
@@ -185,7 +186,7 @@ background-color: #000;
 
 .main-navbar ul li a:hover,
 .main-navbar ul li a.active {
-    color: #59e3a7;
+    color: #00e576;
  transform: scaleX(1);}
 
 
@@ -196,7 +197,7 @@ background-color: #000;
 
 .menu-icon {
     display: none;
-    color: #59e3a7;
+    color: #00e576;
     width: 30px;
     text-align: right;
     cursor: pointer;
@@ -234,7 +235,7 @@ section.top-heading-section h3 {
     font-size: 22px;}
 
  span.green{
-    color:#59e3a7
+    color:#00e576
 }
 section.top-heading-section p {
 font-size: 15px;
@@ -274,7 +275,7 @@ margin-top: 10px;
     color: #fff;
     text-transform: uppercase;
     padding: 20px 5px;
-    box-shadow: #59e3a7 0px 3px 8px;
+    box-shadow: #00e576 0px 3px 8px;
     background-color: transparent;
     backdrop-filter: blur(10px);
     border-radius: 10px;
@@ -314,8 +315,8 @@ margin-top: 10px;
     transition: 0.3s all ease-in-out;
 }
 a.butn.bonus-butn {
-    background-color: #59e3a7;
-    border: 1px solid #59e3a7;
+    background-color: #00e576;
+    border: 1px solid #00e576;
     color: #fff;
 
 }
@@ -335,7 +336,7 @@ section.guide-text-section p {
 }
 span.heading-like {
     font-weight: 700;
-    color: #59e3a7;
+    color: #00e576;
     margin-right: 5px;
 }
 .how-we-rate-wrapper p {
@@ -365,7 +366,7 @@ section.betting-bonus p {
 
 /* Accordion CSS Start */
 .accordion {
-    background-color:#59e3a7;
+    background-color:#00e576;
     border-radius: 0px;
     justify-content: flex-start;
     align-items: stretch;
@@ -575,7 +576,7 @@ section.betting-bonus p {
   
   .disclaimer-wrapper h3 {
       font-size: 30px;
-      color: #59e3a7;
+      color: #00e576;
   }
   
   .disclaimer-wrapper p {
@@ -632,7 +633,7 @@ section.betting-bonus p {
       font-weight: 700;
       margin-bottom: 12px;
       text-align: center;
-      color: #59e3a7;
+      color: #00e576;
   }
   
   .footer-links h3 {
@@ -661,7 +662,7 @@ section.betting-bonus p {
   .footer .footer-items ul li a:after {
       display: block;
       content: '';
-      border-bottom: solid 1px #59e3a7;
+      border-bottom: solid 1px #00e576;
       transition: all 300ms ease-in-out;
       position: absolute;
       left: 0;
