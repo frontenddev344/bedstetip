@@ -251,7 +251,9 @@
     .casino-name img {
         max-width: 190px;
     }
-
+    .casino-rating h3 {
+        font-size: 23px;
+    }
     h2.section-heading {
         font-size: 24px;
     }
@@ -409,6 +411,9 @@
     a.butn.bonus-butn {
         padding: 9px 18px;
         font-size: 14px;
+    }
+    .casino-rating h3 {
+        font-size: 22px;
     }
 
     .casino-welcome p {
