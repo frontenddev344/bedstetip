@@ -879,84 +879,7 @@ section.about-us-cards-section {
 .about-us-cards {
     margin-bottom: 30px;
 }
-
-
-
 /* About Us Page CSS End */
-
-
-
-
-
-
-
-
-/* Banner Section CSS Start */
-.banner {
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-
-.banner-image {
-    height: 550px;
-    width: 100%;
-}
-
-.sub-pages-banner-image {
-    height: 450px;
-}
-
-
-.banner-image img {
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-    object-position: center;
-}
-
-.banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0 0 0/65%);
-    background-blend-mode: multiply;
-    overflow: hidden;
-    text-align: center;
-}
-
-.banner-text h1 {
-    font-size: 70px;
-    color: #fff;
-    display: block;
-    font-weight: 600;
-    text-transform: capitalize;
-    overflow: hidden;
-}
-
-.sub-pages-banner-text h1 {
-    font-size: 55px;
-}
-
-.banner-text h3 {
-    font-size: 25px;
-    color: #fff;
-    display: block;
-    font-weight: 600;
-    text-transform: capitalize;
-    max-width: 1000px;
-    margin: 0 auto;
-    line-height: 1.5;
-    overflow: hidden;
-}
-
-/* Banner Section  CSS End */
 
 /* Sub Pages CSS Start */
 .sub-pages span.heading-like {
@@ -1052,7 +975,6 @@ backdrop-filter: blur(20px);
     height: 100%;
     width: 100%;
 }
-
 form.contact-form {
     max-width: 600px;
     padding: 30px 0px;
@@ -1060,7 +982,6 @@ form.contact-form {
     backdrop-filter: blur(10px);
     border-radius: 10px;
 }
-
 .formbold-form-input {
     width: 100%;
     padding: 12px 24px;
