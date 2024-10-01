@@ -681,7 +681,9 @@ section.betting-bonus p {
     width: 100%;
 }
 
-
+.ssl-certificate img {
+    max-width: 160px;
+}
 
 .copyright {
     padding: 15px 0;
