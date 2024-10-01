@@ -312,7 +312,10 @@ section.top-heading-section p {
     display: flex;
     width: 50%;
 }
-
+.casino-welcome p {
+    font-weight: 600;
+    font-size: 17px;
+}
 .casino-name,
 .casino-welcome,
 .casino-rating,
@@ -347,6 +350,7 @@ section.top-heading-section p {
 
 .casino-rating h3 {
     margin-left: 40px;
+    font-size: 25px;
 }
 
 .butn {
