@@ -374,6 +374,14 @@
         max-width: 170px;
     }
 
+    .specs span {
+        font-size: 12px;
+    }
+
+    .specs span {
+        margin-right: 5px;
+    }
+
     section.top-heading-section h1 {
         font-size: 22px;
     }
@@ -478,11 +486,7 @@
 
 @media screen and (max-width:400px) {
     .specs span {
-        font-size: 9px;
-    }
-
-    .specs span {
-        margin-right: 5px;
+        font-size: 10px;
     }
 
     .specs {

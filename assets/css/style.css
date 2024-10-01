@@ -889,8 +889,7 @@ section.about-us-cards-section {
 }
 
 .sub-pages-content-section {
-    background-color: transparent;
-    backdrop-filter: blur(20px);
+background-color: #000;
 }
 
 
