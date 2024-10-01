@@ -459,8 +459,11 @@
         width: 100%;
         margin-bottom: 20px;
     }
+    .footer-connect {
+        order: 1;
+    }
 
-    .footer-items:last-child {
+    .footer-items:nth-child(2) {
         margin-bottom: 0px;
     }
 
