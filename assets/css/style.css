@@ -622,7 +622,7 @@ background-color: #fff;
 .lg-btm a img {
     width: 100%;
     object-fit: cover;
-    max-width: 340px;
+    max-width: 220px;
 }
 
 .logo-bottom {
@@ -660,7 +660,7 @@ background-color: #fff;
     font-size: 17px;
     position: relative;
     color: #fff;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 

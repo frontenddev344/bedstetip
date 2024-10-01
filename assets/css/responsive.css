@@ -1,19 +1,32 @@
 @media screen and (max-width:1200px) {}
 
 @media screen and (max-width:991px) {
-    .home-page-cards-wrapper-g1{
+    .home-page-cards-wrapper-g1 {
         width: 60%;
     }
-    .home-page-cards-wrapper-g2{
+
+    .home-page-cards-wrapper-g2 {
         width: 40%;
     }
+
     .headings-text {
         display: none;
     }
 
-
-
-
+    h2.section-heading {
+        font-size: 28px;
+    }
+    .gambling-logos {
+        justify-content: center;
+    }
+    .glogo {
+        height: 90px;
+        width: 150px;
+        margin: 15px 5px;
+    }
+    .copyright p {
+        font-size: 13px;
+    }
 
 
 }
@@ -62,14 +75,16 @@
         z-index: 55;
     }
 
-  
+
 
     .casino-rating h3 {
         margin-left: 0;
     }
+
     #right-text {
         text-align: left;
     }
+
     .home-page-cards-wrapper-g1,
     .home-page-cards-wrapper-g2 {
         flex-direction: column;
@@ -84,23 +99,53 @@
         text-align: center;
         margin-bottom: 10px;
     }
+
     .specs span {
         font-size: 15px;
     }
-    .specs{
+
+    .specs {
         margin-bottom: 10px;
     }
-    
+
     #right-text {
         text-align: center;
     }
+
     a.butn.bonus-butn {
         padding: 12px 25px;
     }
+
     .casino-name img {
         max-width: 200px;
     }
 
+    h2.section-heading {
+        font-size: 26px;
+    }
+
+    .accordion .top .text,
+    .accordion .bottom .text p {
+        font-size: 15px;
+    }
+
+    .disclaimer-wrapper p {
+        font-size: 15px;
+    }
+
+    .footer-items h3 {
+        font-size: 22px;
+    }
+
+    .footer .footer-items ul li a {
+        font-size: 16px;
+    }
+    
+    .glogo {
+        height: 90px;
+        width: 140px;
+        margin: 8px 5px;
+    }
 
 }
 
@@ -110,16 +155,71 @@
     section.top-heading-section p {
         font-size: 14px;
     }
+
     .casino-welcome p {
         font-size: 15px;
     }
+
     a.butn.bonus-butn {
         padding: 11px 25px;
     }
+
     .casino-name img {
         max-width: 190px;
     }
 
+    h2.section-heading {
+        font-size: 24px;
+    }
+
+    .py-5 {
+        padding: 35px 0;
+    }
+
+    .pb-5 {
+        padding-bottom: 35px;
+    }
+
+    .pt-5 {
+        padding-top: 35px;
+    }
+
+    .accordion .top .text,
+    .accordion .bottom .text p {
+        font-size: 14px;
+    }
+
+    .footer-items h3 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .social-icons {
+        justify-content: flex-start;
+    }
+
+    .disclaimer-wrapper {
+        padding: 5px;
+    }
+
+    .logo-bottom {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-connect,
+    .footer-links {
+        width: 49%
+    }
+
+    .glogo {
+        height: 80px;
+        width: 130px;
+        margin: 7px 5px;
+    }
+    .copyright p {
+        font-size: 12px;
+    }
 }
 
 
@@ -147,23 +247,63 @@
     p.right-text {
         font-size: 10px;
     }
+
     .home-page-cards-wrapper {
         flex-direction: column;
     }
 
-
-
     a.butn.bonus-butn {
         padding: 11px 30px;
     }
+
     .casino-welcome p {
         font-size: 14px;
     }
+
     .home-page-cards-wrapper-g1,
     .home-page-cards-wrapper-g2 {
         flex-direction: column;
         width: 100%;
     }
+
+    h2.section-heading {
+        font-size: 22px;
+    }
+
+    .guide-text-section p,
+    .how-we-rate-wrapper p,
+    .our-recommendations p,
+    section.betting-bonus p,
+    .home-tips p {
+        font-size: 14px;
+    }
+
+    .accordion-wrap {
+        margin-top: 2.75rem;
+    }
+
+    .accordion .top .text,
+    .accordion .bottom .text p {
+        font-size: 13px;
+    }
+
+    .disclaimer-wrapper p {
+        font-size: 14px;
+    }
+
+    .footer-items {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .lg-btm a img {
+        max-width: 180px;
+    }
+
+    .footer-items h3 {
+        font-size: 22px;
+    }
+
 
 }
 
