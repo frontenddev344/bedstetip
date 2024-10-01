@@ -778,17 +778,27 @@ background-color: #fff;
     background-color: #da1090;
     box-shadow: #fff 0px 2px 4px;
 }
-
+.contact .social-icons i.facebook{
+    background-color: #116af9;
+    color: #fff;
+}
+.contact .social-icons i.twitter{
+    background-color: #000;
+    color: #fff;
+}
+.contact .social-icons i.instagram{
+    background-color: #da1090;
+    color: #fff;
+}
+.contact .social-icons i:hover{
+    box-shadow: none;
+}
 /* Social Icons CSS End */
 
 .review-top-sections img {
     max-width: 300px;
     object-fit: cover;
 }
-
-
-
-
 .reviews-cards {
     padding: 15px;
     box-shadow: #ffa500 0px 3px 8px;
