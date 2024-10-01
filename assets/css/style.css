@@ -1137,7 +1137,7 @@ form.contact-form {
 
 .info p {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 300;
     color: #fff;
     text-align: center;
     max-width: 1000px;
@@ -1161,7 +1161,7 @@ form.contact-form {
     color: #000;
     cursor: pointer;
     transition: all 0.7s ease;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .button:hover {
