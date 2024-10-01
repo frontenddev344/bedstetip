@@ -49,6 +49,9 @@
         font-size: 15px;
         padding: 13px 26px;
     }
+    .about-us-cards p {
+        font-size: 15px;
+    }
 
 }
 
@@ -285,6 +288,15 @@
     .formbold-form-input {
         font-size: 14px;
     }
+    .about-us-cards p {
+        font-size: 14px;
+    }
+    .about-us-cards h3 {
+        font-size: 20px;
+    }
+    .about-us-cards-wrapper {
+        padding: 10px;
+    }
 }
 
 
@@ -383,7 +395,9 @@
     .sub-pages-group h3 {
         font-size: 20px;
     }
-
+    .about-us-cards h3 {
+        font-size: 19px;
+    }
 
 }
 

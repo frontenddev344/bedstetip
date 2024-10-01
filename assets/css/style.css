@@ -196,9 +196,6 @@ img {
     color: #ffa500;
     transform: scaleX(1);
 }
-
-
-
 .close-icon {
     display: none;
 }
@@ -215,7 +212,7 @@ img {
 }
 
 .butn {
-    display: inline-block;
+    display: inline-block;    
     padding: 15px 35px;
     font-size: 16px;
     outline: none;
@@ -224,7 +221,6 @@ img {
     transition: 0.3s all ease-in-out;
     line-height: 20px;
 }
-
 /* Header CSS End */
 
 /* Section Heading CSS Start */
