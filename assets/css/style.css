@@ -269,7 +269,7 @@ section.top-heading-section p {
     vertical-align: middle;
 }
 
-.right-text {
+#right-text {
     text-align: right;
 }
 
@@ -282,6 +282,7 @@ section.top-heading-section p {
 
 .specs {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .specs span {
@@ -318,6 +319,7 @@ section.top-heading-section p {
 .casino-bonus {
     width: 50%;
     margin: auto;
+    text-align: center;
 }
 
 .headings-text {
@@ -326,6 +328,7 @@ section.top-heading-section p {
     margin-bottom: 30px;
     background: #000;
     padding: 15px 10px;
+    text-align: center;
 }
 
 .name,
@@ -339,6 +342,7 @@ section.top-heading-section p {
     max-width: 200px;
     height: auto;
     object-fit: cover;
+    padding: 10px;
 }
 
 .casino-rating h3 {
