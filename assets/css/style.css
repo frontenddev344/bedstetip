@@ -784,6 +784,7 @@ background-color: #fff;
 }
 .contact .social-icons i.twitter{
     background-color: #000;
+    border: 1px solid #fff;
     color: #fff;
 }
 .contact .social-icons i.instagram{
