@@ -698,6 +698,30 @@ section.betting-bonus p {
     font-weight: 300;
     font-size: 14px;
 }
+.gambling-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.glogo {
+    height: 90px;
+    width: 150px;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glogo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
 
 /* Footer CSS End */
 
