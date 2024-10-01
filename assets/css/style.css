@@ -227,7 +227,7 @@ img {
 h2.section-heading {
     font-size: 45px;
     line-height: normal;
-    color: #fff;
+    color: #000;
 }
 
 /* Section Heading CSS End */
@@ -371,11 +371,11 @@ a.butn.bonus-butn:hover {
 /* Home Guide Section CSS Start */
 section.guide-text-section {
     background-color: transparent;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 }
 
 section.guide-text-section p {
-    color: #fff;
+    color: #545556;
     margin-bottom: 10px;
     font-weight: 300;
 }
@@ -389,8 +389,14 @@ span.heading-like {
 /* Home Guide Section CSS End */
 
 /* How We Rate CSS Start */
+section.guide-text-section,section.our-recommendations,
+section.betting-bonus,section.home-tips {
+    background-color: #fff;
+}
+
+
 .how-we-rate-wrapper p {
-    color: #fff;
+    color: #545556;
     margin-bottom: 10px;
     font-weight: 300;
 }
@@ -399,28 +405,22 @@ span.heading-like {
 
 /* Our Recommendations CSS Start */
 section.our-recommendations p {
-    color: #fff;
+    color: #545556;
     margin-bottom: 10px;
     font-weight: 300;
 }
 
-section.our-recommendations.pb-5 {
-    background-color: transparent;
-    backdrop-filter: blur(20px);
-}
+
 
 /* Our Recommendations CSS End */
 
 /* Batting Bonus Section Start */
-section.betting-bonus,
-.home-tips,
-.how-we-rate-wrapper {
-    background-color: transparent;
-    backdrop-filter: blur(20px);
-}
 
+section.how-we-rate.pb-5 {
+    background: #fff;
+}
 section.betting-bonus p {
-    color: #fff;
+    color: #545556;
     margin-bottom: 10px;
 }
 
@@ -428,13 +428,18 @@ section.betting-bonus p {
 
 /* Home Tips Section Start */
 .home-tips p {
-    color: #fff;
+    color: #545556;
     margin-bottom: 10px;
 }
 
 /* Home Tips Section End*/
 
 /* Accordion CSS Start */
+ #faq-heading{
+    color: #fff;
+}
+
+
 .accordion {
     background-color: #ffa500;
     border-radius: 0px;
@@ -557,8 +562,7 @@ section.betting-bonus p {
 
 /* Disclaimer Section CSS Start */
 .disclaimer {
-    background-color: transparent;
-    backdrop-filter: blur(20px);
+background-color: #fff;
 }
 
 
@@ -578,7 +582,7 @@ section.betting-bonus p {
 .disclaimer-wrapper p {
     margin-bottom: 15px;
     font-weight: 300;
-    color: #fff;
+    color: #545556;
 }
 
 /* Disclaimer Section CSS End */
