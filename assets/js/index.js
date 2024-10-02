@@ -57,7 +57,7 @@ function validateForm() {
   document.getElementById("email-error").innerHTML = "";
   document.getElementById("message-error").innerHTML = "";
 
-  if (name.length < 3) {
+  if (name.length < 8) {
       document.getElementById("name-error").innerHTML = "Navnet skal være mindst 3 tegn langt.";
       isValid = false;
   } else if (!/^[a-zA-Z\s]+$/.test(name)) {
