@@ -476,6 +476,11 @@
     .footer-items h3 {
         font-size: 22px;
     }
+    .glogo {
+        height: 60px;
+        width: 100px;
+        margin: 7px 5px;
+    }
 
     .review-top-sections img {
         max-width: 170px;
