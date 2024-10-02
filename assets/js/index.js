@@ -41,3 +41,46 @@ const executeCodes = () => {
 window.addEventListener('load', executeCodes);
 // //Cookies JS End
 
+
+// Form Validations Start
+
+function validateForm() {
+  let isValid = true;
+
+  // Get form inputs
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const message = document.getElementById("message").value.trim();
+
+  // Clear previous error messages
+  document.getElementById("name-error").innerHTML = "";
+  document.getElementById("email-error").innerHTML = "";
+  document.getElementById("message-error").innerHTML = "";
+
+  if (name.length < 3) {
+      document.getElementById("name-error").innerHTML = "Navnet skal være mindst 3 tegn langt.";
+      isValid = false;
+  } else if (!/^[a-zA-Z\s]+$/.test(name)) {
+      document.getElementById("name-error").innerHTML = "Navnet må kun indeholde bogstaver og mellemrum.";
+      isValid = false;
+  }
+
+  // Email Validation
+  const emailPattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+  if (!emailPattern.test(email)) {
+      document.getElementById("email-error").innerHTML = "Indtast en gyldig e-mail adresse.";
+      isValid = false;
+  }
+
+  // Message Validation
+  if (message.length < 40) {
+      document.getElementById("message-error").innerHTML = "Beskeden skal være mindst 10 tegn lang.";
+      isValid = false;
+  }
+
+  // Return false to prevent form submission if there are errors
+  return isValid;
+}
+
+
+// Form Validations End

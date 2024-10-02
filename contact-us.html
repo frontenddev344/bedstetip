@@ -85,10 +85,12 @@
                     <div class="social-icons">
                         <div>
                             <div class="footer-social-icons">
-                                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f facebook"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook-f facebook"></i></a>
                                 <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i
                                         class="fa-brands fa-instagram instagram"></i></a>
-                                <a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-x-twitter twitter"></i></a>
+                                <a href="https://x.com/i/flow/login" target="_blank"><i
+                                        class="fa-brands fa-x-twitter twitter"></i></a>
                             </div>
                         </div>
                     </div>
@@ -103,21 +105,24 @@
                     </p>
                     <div class="form-container">
                         <div class="form-wrapper">
-                            <form class="contact-form">
+                            <form class="contact-form" onsubmit="return validateForm()">
                                 <div class="formbold-mb-5">
                                     <input type="text" name="name" id="name" placeholder="Indtast dit navn"
                                         class="formbold-form-input">
+                                    <span class="error-message" id="name-error"></span>
                                 </div>
                                 <div class="formbold-mb-5">
                                     <input type="email" name="email" id="email" placeholder="Indtast din e-mail"
                                         class="formbold-form-input">
+                                    <span class="error-message" id="email-error"></span>
                                 </div>
                                 <div class="formbold-mb-5">
                                     <textarea rows="6" name="message" id="message" placeholder="Din Besked..."
                                         class="formbold-form-input"></textarea>
+                                    <span class="error-message" id="message-error"></span>
                                 </div>
                                 <div>
-                                    <button class="formbold-btn">Indsend<i
+                                    <button type="submit" class="formbold-btn">Indsend<i
                                             class="fa-solid fa-paper-plane submit-icon"></i></button>
                                 </div>
                             </form>
