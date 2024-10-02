@@ -227,6 +227,9 @@ img {
 h2.section-heading {
     font-size: 45px;
     line-height: normal;
+    color: #fff;
+}
+.home h2.section-heading{
     color: #000;
 }
 
